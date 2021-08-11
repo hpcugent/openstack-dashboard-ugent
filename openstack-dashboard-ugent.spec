@@ -40,8 +40,6 @@ ExclusiveOS: linux
 BuildRoot: %{?_tmppath}%{!?_tmppath:/var/tmp}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 Requires: openstack-dashboard
-Requires: openstack-manila-ui
-
 
 %description
 openstack-dashboard-ugent provides the required OpenStack panels
